@@ -3,7 +3,7 @@ LABEL maintainer="vaibhavguptadeveloper.com"
 
 ENV PYTHONUNBUFFERED 1
 
-
+#--use-pep517
 COPY ./requirements.txt /tmp/requirements.txt
 COPY ./requirements.dev.txt /tmp/requirements.dev.txt
 COPY ./app /app
